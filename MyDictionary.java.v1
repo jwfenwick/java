@@ -1,0 +1,20 @@
+import java.util.HashMap;
+
+public class MyDictionary {
+
+  public static void main(String args[]){
+
+    HashMap<String,String> myDictionary = new HashMap<String, String>();
+
+    myDictionary.put("one","uno");
+    myDictionary.put("two","dos");
+    System.out.println(myDictionary.get("two"));
+
+    System.out.println(myDictionary.isEmpty());
+    System.out.println(myDictionary.size());
+    System.out.println(myDictionary.keySet());
+    System.out.println(myDictionary.values());
+    System.out.println(myDictionary.containsKey("one"));
+    System.out.println(myDictionary.containsValue("uno"));
+  }
+}
